@@ -18517,6 +18517,7 @@
     background-color: #181818;
     border-color: rgba(220, 220, 220, .15);
     box-shadow: none;
+    background-image: none;
   }
   /* github.com: "#f3f4f6" */
   .btn.hover, .btn:hover, [open] > .btn {
