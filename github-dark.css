@@ -262,6 +262,11 @@
   body.status .grouped-items-selector.inline .grouped-item.active {
     color: #bebebe;
   }
+  /* githubstatus.com: "#ddd" */
+  body.status .grouped-items-selector .body .grouped-items .grouped-item,
+  body.status .grouped-items-selector .body .grouped-items .grouped-item.open {
+    border-color: #343434;
+  }
   /* githubstatus.com: "rgba(255,255,255,0.8)" */
   body.status .loader-overlay {
     background-color: hsla(0, 0%, 100%, .8);
@@ -6168,6 +6173,10 @@
       background-color: #181818;
     }
   }
+  /* github.com mobile: "#fff" */
+  body[class="page-responsive"] .enterprise-garden-container::after {
+    background-color: #181818;
+  }
   /* github.com mobile: "#e1e4e8" */
   body[class="page-responsive"] .sponsors-discussion::after {
     background-color: #343434;
@@ -7763,7 +7772,6 @@
   }
   /* github.com mobile: "color: #586069" */
   body[class="page-responsive"] .commit-group-title,
-  body[class="page-responsive"] .commit-tease,
   body[class="page-responsive"] .commit-tease-sha {
     color: #afafaf;
   }
@@ -8688,10 +8696,6 @@
     color: #afafaf;
     background-color: #222;
     border-color: rgba(220, 220, 220, .15);
-  }
-  /* github.com mobile: "#f1f8ff" */
-  body[class="page-responsive"] .commit-tease .AvatarStack-body {
-    background: #182030;
   }
   /* github.com mobile: "#dfe2e5" */
   body[class="page-responsive"] .content-attachment {
@@ -11446,10 +11450,6 @@
       border-left: 2px solid #343434;
     }
   }
-  /* github.com mobile: "color: #666" */
-  body[class="page-responsive"] .repo-file-upload-target {
-    color: #949494;
-  }
   /* github.com mobile: "#ddd" */
   body[class="page-responsive"] .repo-file-upload-target.dragover .repo-file-upload-outline {
     border: 6px dashed #343434;
@@ -11472,10 +11472,6 @@
   /* github.com mobile: "#ddd" */
   body[class="page-responsive"] .repo-file-upload-tree-target .repo-file-upload-outline {
     border: 6px dashed #343434;
-  }
-  /* github.com mobile: "color: #666" */
-  body[class="page-responsive"] .repo-file-upload-file-wrap .remove-file:hover {
-    color: #949494;
   }
   /* github.com mobile: "color: #586069" */
   body[class="page-responsive"] .label-characters-remaining {
@@ -11585,55 +11581,6 @@
   /* github.com mobile: "#e1e4e8" */
   body[class="page-responsive"] .file-navigation .get-repo-btn:first-child {
     border-right: 1px solid #343434;
-  }
-  /* github.com mobile: "#fff" */
-  body[class="page-responsive"] table.files {
-    background: #181818;
-  }
-  /* github.com mobile: "#f6f8fa" */
-  body[class="page-responsive"] table.files tr.navigation-focus td,
-  body[class="page-responsive"] table.files tr[aria-selected="true"] td {
-    background: #222;
-  }
-  /* github.com mobile: "#eaecef" */
-  body[class="page-responsive"] table.files td {
-    border-top: 1px solid #343434;
-  }
-  /* github.com mobile: "color: rgba(3, 47, 98, 0.55)" */
-  body[class="page-responsive"] table.files td.icon {
-    color: /*[[base-color]]*/ #4f8cc9;
-  }
-  /* github.com mobile: "color: #6a737d" */
-  body[class="page-responsive"] table.files td.message,
-  body[class="page-responsive"] table.files td.message a {
-    color: #949494;
-  }
-  /* github.com mobile: "#0366d6" */
-  body[class="page-responsive"] table.files td.message a:hover {
-    color: /*[[base-color]]*/ #4f8cc9;
-  }
-  /* github.com mobile: "color: #6a737d" */
-  body[class="page-responsive"] table.files td.age {
-    color: #949494;
-  }
-  /* github.com mobile: "#eaecef", "#eaecef" */
-  body[class="page-responsive"] table.files tr.up-tree {
-    border-top: 1px solid #343434;
-    border-bottom: 1px solid #343434;
-  }
-  /* github.com mobile: "#dfe2e5" */
-  body[class="page-responsive"] table.files tr.up-tree a:hover {
-    background-color: #343434;
-  }
-  /* github.com mobile: "color: #586069", "#fafbfc", "#dfe2e5" */
-  body[class="page-responsive"] .branch-infobar {
-    color: #afafaf;
-    background-color: #181818;
-    border: solid #343434;
-  }
-  /* github.com mobile: "color: #959da5" */
-  body[class="page-responsive"] .branch-infobar .muted-link .octicon {
-    color: #767676;
   }
   /* github.com mobile: "#dfe2e5" */
   body[class="page-responsive"] .prereceive-feedback {
@@ -18847,7 +18794,7 @@
     color: #cdcdcd;
   }
   /* github.com: "color: #586069" */
-  .commit-group-title, .commit-tease, .commit-tease-sha {
+  .commit-group-title, .commit-tease-sha {
     color: #afafaf;
   }
   /* github.com: "color: #c6cbd1", "#fff" */
@@ -19758,10 +19705,6 @@
     color: #afafaf;
     background-color: #222;
     border-color: rgba(220, 220, 220, .15);
-  }
-  /* github.com: "#f1f8ff" */
-  .commit-tease .AvatarStack-body {
-    background: #182030;
   }
   /* github.com: "#dfe2e5" */
   .content-attachment {
@@ -22458,10 +22401,6 @@
       border-left: 2px solid #343434;
     }
   }
-  /* github.com: "color: #666" */
-  .repo-file-upload-target {
-    color: #949494;
-  }
   /* github.com: "#ddd" */
   .repo-file-upload-target.dragover .repo-file-upload-outline {
     border: 6px dashed #343434;
@@ -22481,10 +22420,6 @@
   /* github.com: "#ddd" */
   .repo-file-upload-tree-target .repo-file-upload-outline {
     border: 6px dashed #343434;
-  }
-  /* github.com: "color: #666" */
-  .repo-file-upload-file-wrap .remove-file:hover {
-    color: #949494;
   }
   /* github.com: "color: #586069" */
   .label-characters-remaining {
@@ -22592,53 +22527,6 @@
   /* github.com: "#e1e4e8" */
   .file-navigation .get-repo-btn:first-child {
     border-right: 1px solid #343434;
-  }
-  /* github.com: "#fff" */
-  table.files {
-    background: #181818;
-  }
-  /* github.com: "#f6f8fa" */
-  table.files tr.navigation-focus td, table.files tr[aria-selected="true"] td {
-    background: #222;
-  }
-  /* github.com: "#eaecef" */
-  table.files td {
-    border-top: 1px solid #343434;
-  }
-  /* github.com: "color: rgba(3, 47, 98, 0.55)" */
-  table.files td.icon {
-    color: /*[[base-color]]*/ #4f8cc9;
-  }
-  /* github.com: "color: #6a737d" */
-  table.files td.message, table.files td.message a {
-    color: #949494;
-  }
-  /* github.com: "#0366d6" */
-  table.files td.message a:hover {
-    color: /*[[base-color]]*/ #4f8cc9;
-  }
-  /* github.com: "color: #6a737d" */
-  table.files td.age {
-    color: #949494;
-  }
-  /* github.com: "#eaecef", "#eaecef" */
-  table.files tr.up-tree {
-    border-top: 1px solid #343434;
-    border-bottom: 1px solid #343434;
-  }
-  /* github.com: "#dfe2e5" */
-  table.files tr.up-tree a:hover {
-    background-color: #343434;
-  }
-  /* github.com: "color: #586069", "#fafbfc", "#dfe2e5" */
-  .branch-infobar {
-    color: #afafaf;
-    background-color: #181818;
-    border: solid #343434;
-  }
-  /* github.com: "color: #959da5" */
-  .branch-infobar .muted-link .octicon {
-    color: #767676;
   }
   /* github.com: "#dfe2e5" */
   .prereceive-feedback {
@@ -23631,6 +23519,10 @@
     .enterprise-section-container {
       background-color: #181818;
     }
+  }
+  /* github.com: "#fff" */
+  .enterprise-garden-container::after {
+    background-color: #181818;
   }
   /* github.com: "#e1e4e8" */
   .sponsors-discussion::after {
@@ -26425,6 +26317,24 @@
   body.zh_logged_in .zhc-footer__terms a {
     color: #949494;
   }
+  /* zenhub: "#f4f4f4" */
+  body.zh_logged_in .zhc-grid-table {
+    background-color: #242424;
+  }
+  /* zenhub: "#e9e9e9" */
+  body.zh_logged_in .zhc-grid-table__row--is-data-row td {
+    border-top: 1px solid #343434;
+  }
+  /* zenhub: "#f4f4f4", "#e9e9e9" */
+  body.zh_logged_in .zhc-grid-table__cell {
+    background-color: #242424;
+    border-right: 1px solid #343434;
+  }
+  /* zenhub: "#f8f8f8", "#e9e9e9" */
+  body.zh_logged_in .zhc-grid-table__first-col {
+    background-color: #202020;
+    border-right: 2px solid #343434;
+  }
   /* zenhub: "#fff" */
   body.zh_logged_in .zhc-icon--has-notification::after {
     border: solid 1px #181818;
@@ -27304,10 +27214,10 @@
   body.zh_logged_in .zhc-pipeline-sort-status {
     border-top: 1px solid #343434;
   }
-  /* zenhub: "#fff", "#e9e9e9" */
-  body.zh_logged_in .zhc-popover {
-    background: #181818;
+  /* zenhub: "#e9e9e9", "#fff" */
+  body.zh_logged_in .zhc-popover--deprecated_with_borders {
     border: 1px solid #343434;
+    background: #181818;
   }
   /* zenhub: "#e9e9e9" */
   body.zh_logged_in .zhc-progress-bar {
@@ -27569,18 +27479,44 @@
   body.zh_logged_in .zhc-selection-item:disabled:hover {
     background-color: transparent;
   }
-  /* zenhub: "#ddd" */
+  /* zenhub: "color: #666" */
+  body.zh_logged_in .zhc-selection-list__item__user__text {
+    color: #949494;
+  }
+  /* zenhub: "#e9e9e9" */
   body.zh_logged_in .zhc-selection-list__layout {
     border: 1px solid #343434;
   }
-  /* zenhub: "#fff", "#ddd" */
+  /* zenhub: "#fff", "#e9e9e9" */
   body.zh_logged_in .zhc-selection-list__item {
     background: #181818;
-    border-bottom: 1px solid #343434;
+    border-top: 1px solid #343434;
   }
-  /* zenhub: "#ddd" */
+  /* zenhub: "color: #666" */
+  body.zh_logged_in .zhc-selection-list__item__selection-icon {
+    color: #949494;
+  }
+  /* zenhub: "#f8f8f8", "#e9e9e9" */
   body.zh_logged_in .zhc-selection-list__item--is-highlighted {
-    background: #383838;
+    background-color: #202020;
+    border: 1px solid #343434;
+  }
+  /* zenhub: "#e9e9e9" */
+  body.zh_logged_in .zhc-selection-list__item--is-highlighted:first-child {
+    border-top: 1px solid #343434;
+  }
+  /* zenhub: "color: #333" */
+  body.zh_logged_in .zhc-selection-list__header {
+    color: #bebebe;
+  }
+  /* zenhub: "#f8f8f8", "#e9e9e9" */
+  body.zh_logged_in .zhc-selection-list__search-bar .zhc-selection-list__search-bar__content {
+    background-color: #202020;
+    border: 1px solid #343434;
+  }
+  /* zenhub: "transparent" */
+  body.zh_logged_in .zhc-selection-list__search-bar .zhc-selection-list__search-bar__content input {
+    background-color: transparent;
   }
   /* zenhub: "#e9e9e9" */
   body.zh_logged_in .zhc-selection-list-deprecated--footer {
@@ -28381,6 +28317,10 @@
   body.zh_logged_in .zhc-epic-issue-list {
     background-color: #181818;
     border: 1px solid #343434;
+  }
+  /* zenhub: "#f8f8f8" */
+  body.zh_logged_in .zhc-epic-builder-pipeline-cell {
+    background-color: #202020;
   }
   /* zenhub: "box-shadow: none" */
   body.zh_logged_in .zhc-roadmap-calendar.zhc-popover .DateRangePicker .DateRangePicker_picker .DayPicker.DayPicker__horizontal {
