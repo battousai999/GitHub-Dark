@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.22
+@version     2.1.23
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     CC-BY-SA-4.0
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.22 (2020-07-01) */
+/*! Github Dark v2.1.23 (2020-07-02) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|help|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"),
@@ -476,11 +476,6 @@
   /* githubstatus.com: "color: #333" */
   body.status .grouped-items-selector.inline .grouped-item.active {
     color: #bebebe;
-  }
-  /* githubstatus.com: "#ddd" */
-  body.status .grouped-items-selector .body .grouped-items .grouped-item,
-  body.status .grouped-items-selector .body .grouped-items .grouped-item.open {
-    border-color: #343434;
   }
   /* githubstatus.com: "rgba(255,255,255,0.8)" */
   body.status .loader-overlay {
@@ -11789,14 +11784,6 @@
   body[class="page-responsive"] .numbers-summary .octicon {
     color: #949494;
   }
-  /* github.com mobile: "#e1e4e8" */
-  body[class="page-responsive"] .file-navigation .get-repo-btn {
-    border-top: 1px solid #343434;
-  }
-  /* github.com mobile: "#e1e4e8" */
-  body[class="page-responsive"] .file-navigation .get-repo-btn:first-child {
-    border-right: 1px solid #343434;
-  }
   /* github.com mobile: "#dfe2e5" */
   body[class="page-responsive"] .prereceive-feedback {
     border: 1px solid #343434;
@@ -22734,14 +22721,6 @@
   /* github.com: "color: #6a737d" */
   .numbers-summary .octicon {
     color: #949494;
-  }
-  /* github.com: "#e1e4e8" */
-  .file-navigation .get-repo-btn {
-    border-top: 1px solid #343434;
-  }
-  /* github.com: "#e1e4e8" */
-  .file-navigation .get-repo-btn:first-child {
-    border-right: 1px solid #343434;
   }
   /* github.com: "#dfe2e5" */
   .prereceive-feedback {
