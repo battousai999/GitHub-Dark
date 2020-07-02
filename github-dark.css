@@ -262,11 +262,6 @@
   body.status .grouped-items-selector.inline .grouped-item.active {
     color: #bebebe;
   }
-  /* githubstatus.com: "#ddd" */
-  body.status .grouped-items-selector .body .grouped-items .grouped-item,
-  body.status .grouped-items-selector .body .grouped-items .grouped-item.open {
-    border-color: #343434;
-  }
   /* githubstatus.com: "rgba(255,255,255,0.8)" */
   body.status .loader-overlay {
     background-color: hsla(0, 0%, 100%, .8);
@@ -11574,14 +11569,6 @@
   body[class="page-responsive"] .numbers-summary .octicon {
     color: #949494;
   }
-  /* github.com mobile: "#e1e4e8" */
-  body[class="page-responsive"] .file-navigation .get-repo-btn {
-    border-top: 1px solid #343434;
-  }
-  /* github.com mobile: "#e1e4e8" */
-  body[class="page-responsive"] .file-navigation .get-repo-btn:first-child {
-    border-right: 1px solid #343434;
-  }
   /* github.com mobile: "#dfe2e5" */
   body[class="page-responsive"] .prereceive-feedback {
     border: 1px solid #343434;
@@ -22519,14 +22506,6 @@
   /* github.com: "color: #6a737d" */
   .numbers-summary .octicon {
     color: #949494;
-  }
-  /* github.com: "#e1e4e8" */
-  .file-navigation .get-repo-btn {
-    border-top: 1px solid #343434;
-  }
-  /* github.com: "#e1e4e8" */
-  .file-navigation .get-repo-btn:first-child {
-    border-right: 1px solid #343434;
   }
   /* github.com: "#dfe2e5" */
   .prereceive-feedback {
