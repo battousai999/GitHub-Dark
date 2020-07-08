@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.27
+@version     2.1.28
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     CC-BY-SA-4.0
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.27 (2020-07-08) */
+/*! Github Dark v2.1.28 (2020-07-08) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|help|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"),
@@ -7613,10 +7613,6 @@
   /* github.com mobile: "#e1e4e8" */
   body[class="page-responsive"] .reverse-progress-bar {
     background-color: #343434;
-  }
-  /* github.com mobile: "#e1e4e8" */
-  body[class="page-responsive"] .progress-bar-inline .progress-bar {
-    border: 1px solid #343434;
   }
   /* github.com mobile: "currentcolor" */
   body[class="page-responsive"] .select-menu-button::after {
@@ -18653,10 +18649,6 @@
   /* github.com: "#e1e4e8" */
   .reverse-progress-bar {
     background-color: #343434;
-  }
-  /* github.com: "#e1e4e8" */
-  .progress-bar-inline .progress-bar {
-    border: 1px solid #343434;
   }
   /* github.com: "currentcolor" */
   .select-menu-button::after {
