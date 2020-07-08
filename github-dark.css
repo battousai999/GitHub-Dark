@@ -7399,10 +7399,6 @@
   body[class="page-responsive"] .reverse-progress-bar {
     background-color: #343434;
   }
-  /* github.com mobile: "#e1e4e8" */
-  body[class="page-responsive"] .progress-bar-inline .progress-bar {
-    border: 1px solid #343434;
-  }
   /* github.com mobile: "currentcolor" */
   body[class="page-responsive"] .select-menu-button::after {
     border-top-color: currentcolor;
@@ -18438,10 +18434,6 @@
   /* github.com: "#e1e4e8" */
   .reverse-progress-bar {
     background-color: #343434;
-  }
-  /* github.com: "#e1e4e8" */
-  .progress-bar-inline .progress-bar {
-    border: 1px solid #343434;
   }
   /* github.com: "currentcolor" */
   .select-menu-button::after {
