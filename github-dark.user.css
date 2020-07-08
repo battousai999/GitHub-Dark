@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.26
+@version     2.1.27
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     CC-BY-SA-4.0
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.26 (2020-07-07) */
+/*! Github Dark v2.1.27 (2020-07-08) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|help|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"),
@@ -8563,14 +8563,6 @@
   body[class="page-responsive"] .discussion-item-header {
     color: #afafaf;
   }
-  /* github.com mobile: "color: #24292e" */
-  body[class="page-responsive"] .commit-message .issue-link {
-    color: #cdcdcd;
-  }
-  /* github.com mobile: "#0366d6" */
-  body[class="page-responsive"] .commit-message .issue-link:hover {
-    color: /*[[base-color]]*/;
-  }
   /* github.com mobile: "color: rgba(27,31,35,.7)" */
   body[class="page-responsive"] .discussion-item-private {
     color: rgba(230, 230, 230, .7);
@@ -12470,6 +12462,10 @@
   /* github.com mobile: "rgba(115,92,15,.5)" */
   body[class="page-responsive"] .hx_color-repo-private-icon {
     color: rgba(204, 187, 68, .5);
+  }
+  /* github.com mobile: "rgba(27,31,35,.15)" */
+  body[class="page-responsive"] .hx_bg-black-fade-15 {
+    background-color: rgba(220, 220, 220, .22);
   }
   /* github.com mobile: "color: #959da5" */
   body[class="page-responsive"] .SelectMenu-item:disabled,
@@ -19564,14 +19560,6 @@
   .discussion-item-header {
     color: #afafaf;
   }
-  /* github.com: "color: #24292e" */
-  .commit-message .issue-link {
-    color: #cdcdcd;
-  }
-  /* github.com: "#0366d6" */
-  .commit-message .issue-link:hover {
-    color: /*[[base-color]]*/;
-  }
   /* github.com: "color: rgba(27,31,35,.7)" */
   .discussion-item-private {
     color: rgba(230, 230, 230, .7);
@@ -23392,6 +23380,10 @@
   /* github.com: "rgba(115,92,15,.5)" */
   .hx_color-repo-private-icon {
     color: rgba(204, 187, 68, .5);
+  }
+  /* github.com: "rgba(27,31,35,.15)" */
+  .hx_bg-black-fade-15 {
+    background-color: rgba(220, 220, 220, .22);
   }
   /* github.com: "box-shadow: 0 0 0 .2em rgba(3,102,214,.3)" */
   body:not(.intent-mouse) .hx_focus-input:focus + .hx_focus-target {
