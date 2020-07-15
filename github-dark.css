@@ -11196,16 +11196,6 @@
   body[class="page-responsive"] .user-profile-bio-message {
     color: #d82828;
   }
-  /* github.com mobile: "#fff", "#d1d5da" */
-  body[class="page-responsive"] .user-profile-sticky-bar.user-profile-sticky-bar-with-bg::after {
-    background-color: #181818;
-    border-bottom: 1px solid #404040;
-  }
-  /* github.com mobile: "#cb2431", "#d73a49" */
-  body[class="page-responsive"] .blocked-user-notice {
-    color: #d82828;
-    border: 1px solid #d82828;
-  }
   /* github.com mobile: "#fff", "#d1d5da", "box-shadow: none" */
   body[class="page-responsive"] .user-profile-nav {
     background-color: #181818;
@@ -12165,16 +12155,7 @@
     background-color: #d82828;
   }
   /* github.com mobile: "color: #586069" */
-  body[class="page-responsive"] .follow-list .follow-list-info {
-    color: #afafaf;
-  }
-  /* github.com mobile: "#e1e4e8" */
-  @media (min-width: 768px) {
-    body[class="page-responsive"] .avatar-before-user-status {
-      border: 1px solid #343434;
-    }
-  }
-  /* github.com mobile: "color: #586069" */
+  body[class="page-responsive"] .follow-list .follow-list-info,
   body[class="page-responsive"] .user-status-org-button .user-status-org-detail {
     color: #afafaf;
   }
@@ -22131,16 +22112,6 @@
   .user-profile-bio-message {
     color: #d82828;
   }
-  /* github.com: "#fff", "#d1d5da" */
-  .user-profile-sticky-bar.user-profile-sticky-bar-with-bg::after {
-    background-color: #181818;
-    border-bottom: 1px solid #404040;
-  }
-  /* github.com: "#cb2431", "#d73a49" */
-  .blocked-user-notice {
-    color: #d82828;
-    border: 1px solid #d82828;
-  }
   /* github.com: "#fff", "#d1d5da", "box-shadow: none" */
   .user-profile-nav {
     background-color: #181818;
@@ -23071,16 +23042,7 @@
     background-color: #d82828;
   }
   /* github.com: "color: #586069" */
-  .follow-list .follow-list-info {
-    color: #afafaf;
-  }
-  /* github.com: "#e1e4e8" */
-  @media (min-width: 768px) {
-    .avatar-before-user-status {
-      border: 1px solid #343434;
-    }
-  }
-  /* github.com: "color: #586069" */
+  .follow-list .follow-list-info,
   .user-status-org-button .user-status-org-detail {
     color: #afafaf;
   }
