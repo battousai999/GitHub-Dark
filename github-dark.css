@@ -28866,7 +28866,7 @@
     background: #181818;
   }
   /* gitako: "#e1e4e8" */
-  .gitako-ready .pagehead.repohead {
+  .gitako-ready main > *:first-child {
     box-shadow: inset 0 -1px 0 #343434;
   }
   /* gitako: "#d1d5da", "#fafbfc" */
