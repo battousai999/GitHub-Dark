@@ -9004,10 +9004,6 @@
   body[class="page-responsive"] .billing-box-accordion-state .octicon {
     color: #afafaf;
   }
-  /* github.com mobile: "#fff" */
-  body[class="page-responsive"] .billing-box-progressBars span:nth-child(2) {
-    border-left-color: #181818;
-  }
   /* github.com mobile: "color: #6a737d" */
   body[class="page-responsive"] .blame-commit-date[data-heat="10"] {
     color: #949494;
@@ -19833,10 +19829,6 @@
   /* github.com: "color: #586069" */
   .billing-box-accordion-state .octicon {
     color: #afafaf;
-  }
-  /* github.com: "#fff" */
-  .billing-box-progressBars span:nth-child(2) {
-    border-left-color: #181818;
   }
   /* github.com: "color: #6a737d" */
   .blame-commit-date[data-heat="10"] {
