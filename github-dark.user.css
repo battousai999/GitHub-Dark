@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.40
+@version     2.1.41
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     CC-BY-SA-4.0
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.40 (2020-07-22) */
+/*! Github Dark v2.1.41 (2020-07-22) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|help|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"),
@@ -9218,10 +9218,6 @@
   /* github.com mobile: "color: #586069" */
   body[class="page-responsive"] .billing-box-accordion-state .octicon {
     color: #afafaf;
-  }
-  /* github.com mobile: "#fff" */
-  body[class="page-responsive"] .billing-box-progressBars span:nth-child(2) {
-    border-left-color: #181818;
   }
   /* github.com mobile: "color: #6a737d" */
   body[class="page-responsive"] .blame-commit-date[data-heat="10"] {
@@ -20048,10 +20044,6 @@
   /* github.com: "color: #586069" */
   .billing-box-accordion-state .octicon {
     color: #afafaf;
-  }
-  /* github.com: "#fff" */
-  .billing-box-progressBars span:nth-child(2) {
-    border-left-color: #181818;
   }
   /* github.com: "color: #6a737d" */
   .blame-commit-date[data-heat="10"] {
