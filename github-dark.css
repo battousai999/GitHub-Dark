@@ -15697,6 +15697,10 @@
   body.d-lg-flex div.light-bg a p {
     color: #afafaf;
   }
+  /* help.github.com: "#fff" */
+  body.d-lg-flex .btn-outline-mktg {
+    background-color: #181818;
+  }
   /* help.github.com: "#05264c" */
   body.d-lg-flex .sidebar {
     background-color: #182030;
