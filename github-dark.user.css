@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.39
+@version     2.1.40
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     CC-BY-SA-4.0
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.39 (2020-07-22) */
+/*! Github Dark v2.1.40 (2020-07-22) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|help|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"),
@@ -27546,7 +27546,8 @@
     border: solid 1px #8368aa;
   }
   /* zenhub: "color: #666" */
-  body.zh_logged_in .zhc-board-settings-item {
+  body.zh_logged_in .zhc-board-settings-item,
+  body.zh_logged_in .zhc-board-settings-item .zhc-svg-icon.zhc-svg-icon {
     color: #949494;
   }
   /* zenhub: "#f4f4f4", "#e9e9e9" */
@@ -27583,9 +27584,10 @@
     background-color: #202020;
     border-left-color: #8368aa;
   }
-  /* zenhub: "color: #333" */
+  /* zenhub: "color: #333", "transparent" */
   body.zh_logged_in .zhc-sidebar-nav-item__link {
     color: #bebebe;
+    background: transparent;
   }
   /* zenhub: "#e9e9e9", "#fff" */
   body.zh_logged_in .zhc-sidebar-nav-item__action--is-active,
