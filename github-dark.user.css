@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.42
+@version     2.1.43
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     CC-BY-SA-4.0
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.42 (2020-07-23) */
+/*! Github Dark v2.1.43 (2020-07-24) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|help|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"),
@@ -15873,15 +15873,31 @@
   body.d-lg-flex iframe#graphiql {
     border: 1px solid #343434;
   }
-  /* help.github.com: "color: #333", "#f8f8f8" */
+  /* help.github.com: "color: #24292e", "#fafbfc" */
   body.d-lg-flex .hljs {
-    color: #bebebe;
-    background: #202020;
+    color: #cdcdcd;
+    background: #181818;
   }
-  /* help.github.com: "color: #333" */
+  /* help.github.com: "color: #6a737d" */
+  body.d-lg-flex .hljs-comment, body.d-lg-flex .hljs-quote {
+    color: #949494;
+  }
+  /* help.github.com: "color: #24292e" */
   body.d-lg-flex .hljs-keyword, body.d-lg-flex .hljs-selector-tag,
   body.d-lg-flex .hljs-subst {
-    color: #bebebe;
+    color: #cdcdcd;
+  }
+  /* help.github.com: "#005cc5" */
+  body.d-lg-flex .hljs-doctag, body.d-lg-flex .hljs-string {
+    color: #4f8cc9;
+  }
+  /* help.github.com: "color: #6f42c1" */
+  body.d-lg-flex .hljs-bullet, body.d-lg-flex .hljs-symbol {
+    color: #8368aa;
+  }
+  /* help.github.com: "color: #6a737d" */
+  body.d-lg-flex .hljs-meta {
+    color: #949494;
   }
   /* help.github.com: "none" */
   body.d-lg-flex .markdown-body table code {
