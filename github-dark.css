@@ -28774,6 +28774,14 @@
   .participating .js-notifications-browser::before {
     background-color: #444;
   }
+  /* notifications preview: "transparent" */
+  .mark-all-as-read-confirmed label {
+    background-color: transparent;
+  }
+  /* notifications preview: "#e1e4e8" */
+  .NPG-dropdown .notifications-list-item:hover .notification-list-item-actions .btn {
+    background-color: #343434 !important;
+  }
   /* end remap-css rules */
   body, body.bg-gray {
     background-color: #202020 !important;
