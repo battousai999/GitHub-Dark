@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.44
+@version     2.1.45
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     CC-BY-SA-4.0
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.44 (2020-07-24) */
+/*! Github Dark v2.1.45 (2020-07-25) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|help|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"),
@@ -15716,10 +15716,6 @@
     background-color: #484;
     border-color: #484;
   }
-  /* help.github.com: "color: #1074e7" */
-  body.d-lg-flex .btn-outline-mktg {
-    color: /*[[base-color]]*/;
-  }
   /* help.github.com: "#0366d6", "#1074e7" */
   body.d-lg-flex .btn-outline-mktg:hover {
     color: /*[[base-color]]*/;
@@ -15848,9 +15844,22 @@
   body.d-lg-flex div.light-bg a p {
     color: #afafaf;
   }
-  /* help.github.com: "#fff" */
+  /* help.github.com: "#0366d6" */
+  body.d-lg-flex .btn-mktg {
+    background-color: /*[[base-color]]*/;
+  }
+  /* help.github.com: "#fff", "#0366d6" */
   body.d-lg-flex .btn-outline-mktg {
     background-color: #181818;
+    color: /*[[base-color]]*/;
+  }
+  /* help.github.com: "#005cc5" */
+  body.d-lg-flex .bg-red-light a {
+    color: #4f8cc9;
+  }
+  /* help.github.com: "color: #586069" */
+  body.d-lg-flex .markdown-body .bg-blue-light blockquote {
+    color: #afafaf;
   }
   /* help.github.com: "#05264c" */
   body.d-lg-flex .sidebar {
