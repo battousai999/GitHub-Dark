@@ -7780,17 +7780,6 @@
     background: #182030;
     border: 1px solid rgba(220, 220, 220, .15);
   }
-  /* github.com mobile: "initial", "rgba(27,31,35,.15)" */
-  body[class="page-responsive"] .full-commit .btn-outline,
-  body[class="page-responsive"] .full-commit .btn-outline:disabled {
-    background-color: initial;
-    border-color: rgba(220, 220, 220, .15);
-  }
-  /* github.com mobile: "#005cc5", "#005cc5" */
-  body[class="page-responsive"] .full-commit .btn-outline:not(:disabled):hover {
-    color: #4f8cc9;
-    border-color: #4f8cc9;
-  }
   /* github.com mobile: "color: #05264c" */
   body[class="page-responsive"] .full-commit p.commit-title {
     color: #bebebe;
@@ -18638,16 +18627,6 @@
   .full-commit {
     background: #182030;
     border: 1px solid rgba(220, 220, 220, .15);
-  }
-  /* github.com: "initial", "rgba(27,31,35,.15)" */
-  .full-commit .btn-outline, .full-commit .btn-outline:disabled {
-    background-color: initial;
-    border-color: rgba(220, 220, 220, .15);
-  }
-  /* github.com: "#005cc5", "#005cc5" */
-  .full-commit .btn-outline:not(:disabled):hover {
-    color: #4f8cc9;
-    border-color: #4f8cc9;
   }
   /* github.com: "color: #05264c" */
   .full-commit p.commit-title {
