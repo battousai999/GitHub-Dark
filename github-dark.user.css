@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.48
+@version     2.1.49
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     CC-BY-SA-4.0
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.48 (2020-07-28) */
+/*! Github Dark v2.1.49 (2020-07-29) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|help|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"),
@@ -6364,19 +6364,10 @@
   body[class="page-responsive"] .Tile {
     background-color: #222;
   }
-  /* github.com mobile: "#fafbfc" */
-  body[class="page-responsive"] .bg-hero-dots-gray::before,
-  body[class="page-responsive"] .Tile:hover {
-    background-color: #181818;
-  }
-  /* github.com mobile: "#fafbfc" */
-  @media (max-width: 1012px) {
-    body[class="page-responsive"] .enterprise-section-container {
-      background-color: #181818;
-    }
-  }
   /* github.com mobile: "#fff" */
-  body[class="page-responsive"] .enterprise-garden-container::after {
+  body[class="page-responsive"] .bg-hero-dots-gray::before,
+  body[class="page-responsive"] .enterprise-garden-container::after,
+  body[class="page-responsive"] .Tile:hover {
     background-color: #181818;
   }
   /* github.com mobile: "#e1e4e8" */
@@ -23380,18 +23371,8 @@
   .Tile {
     background-color: #222;
   }
-  /* github.com: "#fafbfc" */
-  .bg-hero-dots-gray::before, .Tile:hover {
-    background-color: #181818;
-  }
-  /* github.com: "#fafbfc" */
-  @media (max-width: 1012px) {
-    .enterprise-section-container {
-      background-color: #181818;
-    }
-  }
   /* github.com: "#fff" */
-  .enterprise-garden-container::after {
+  .bg-hero-dots-gray::before, .enterprise-garden-container::after, .Tile:hover {
     background-color: #181818;
   }
   /* github.com: "#e1e4e8" */
