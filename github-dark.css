@@ -7384,14 +7384,6 @@
   body[class="page-responsive"] .list-group-item[aria-selected="true"] {
     background-color: #182030;
   }
-  /* github.com mobile: "color: #586069" */
-  body[class="page-responsive"] .list-group-item .list-group-item-summary a {
-    color: #afafaf;
-  }
-  /* github.com mobile: "color: #6a737d" */
-  body[class="page-responsive"] .list-group-item .list-group-item-summary a.quiet {
-    color: #949494;
-  }
   /* github.com mobile: "color: #24292e" */
   body[class="page-responsive"] .list-group-item-link {
     color: #cdcdcd;
@@ -9198,28 +9190,6 @@
   /* github.com mobile: "color: #586069" */
   body[class="page-responsive"] .range-editor-icon {
     color: #afafaf;
-  }
-  /* github.com mobile: "#fff", "#dfe2e5" */
-  body[class="page-responsive"] ul.comparison-list {
-    background: #181818;
-    border: 1px solid #343434;
-  }
-  /* github.com mobile: "#eaecef" */
-  body[class="page-responsive"] ul.comparison-list > li {
-    border-top: 1px solid #343434;
-  }
-  /* github.com mobile: "color: #586069" */
-  body[class="page-responsive"] ul.comparison-list > li em {
-    color: #afafaf;
-  }
-  /* github.com mobile: "color: #a3aab1" */
-  body[class="page-responsive"] ul.comparison-list > li .octicon {
-    color: #767676;
-  }
-  /* github.com mobile: "color: #6a737d", "#fafbfc" */
-  body[class="page-responsive"] ul.comparison-list > li.title {
-    color: #949494;
-    background: #181818;
   }
   /* github.com mobile: "#959da5" */
   body[class="page-responsive"] .branch-a-b-count .count-half:last-child {
@@ -11380,23 +11350,6 @@
   /* github.com mobile: "color: #586069" */
   body[class="page-responsive"] .timeout h3 {
     color: #afafaf;
-  }
-  /* github.com mobile: "#dfe2e5" */
-  body[class="page-responsive"] .overall-summary {
-    border: 1px solid #343434;
-  }
-  /* github.com mobile: "color: #586069" */
-  body[class="page-responsive"] .numbers-summary li > .nolink,
-  body[class="page-responsive"] .numbers-summary li > a {
-    color: #afafaf;
-  }
-  /* github.com mobile: "#0366d6" */
-  body[class="page-responsive"] .numbers-summary li > a:hover {
-    color: /*[[base-color]]*/ #4f8cc9;
-  }
-  /* github.com mobile: "color: #6a737d" */
-  body[class="page-responsive"] .numbers-summary .octicon {
-    color: #949494;
   }
   /* github.com mobile: "#dfe2e5" */
   body[class="page-responsive"] .prereceive-feedback {
@@ -18255,14 +18208,6 @@
   .list-group-item.navigation-focus, .list-group-item[aria-selected="true"] {
     background-color: #182030;
   }
-  /* github.com: "color: #586069" */
-  .list-group-item .list-group-item-summary a {
-    color: #afafaf;
-  }
-  /* github.com: "color: #6a737d" */
-  .list-group-item .list-group-item-summary a.quiet {
-    color: #949494;
-  }
   /* github.com: "color: #24292e" */
   .list-group-item-link {
     color: #cdcdcd;
@@ -20014,28 +19959,6 @@
   /* github.com: "color: #586069" */
   .range-editor-icon {
     color: #afafaf;
-  }
-  /* github.com: "#fff", "#dfe2e5" */
-  ul.comparison-list {
-    background: #181818;
-    border: 1px solid #343434;
-  }
-  /* github.com: "#eaecef" */
-  ul.comparison-list > li {
-    border-top: 1px solid #343434;
-  }
-  /* github.com: "color: #586069" */
-  ul.comparison-list > li em {
-    color: #afafaf;
-  }
-  /* github.com: "color: #a3aab1" */
-  ul.comparison-list > li .octicon {
-    color: #767676;
-  }
-  /* github.com: "color: #6a737d", "#fafbfc" */
-  ul.comparison-list > li.title {
-    color: #949494;
-    background: #181818;
   }
   /* github.com: "#959da5" */
   .branch-a-b-count .count-half:last-child {
@@ -22155,22 +22078,6 @@
   /* github.com: "color: #586069" */
   .timeout h3 {
     color: #afafaf;
-  }
-  /* github.com: "#dfe2e5" */
-  .overall-summary {
-    border: 1px solid #343434;
-  }
-  /* github.com: "color: #586069" */
-  .numbers-summary li > .nolink, .numbers-summary li > a {
-    color: #afafaf;
-  }
-  /* github.com: "#0366d6" */
-  .numbers-summary li > a:hover {
-    color: /*[[base-color]]*/ #4f8cc9;
-  }
-  /* github.com: "color: #6a737d" */
-  .numbers-summary .octicon {
-    color: #949494;
   }
   /* github.com: "#dfe2e5" */
   .prereceive-feedback {
